@@ -23,7 +23,15 @@ public class RoomAssignment{
         
         RoomDatabase rd = new RoomDatabase();
         rd.autoLogin(username, password);
+        
+        
 
     }
-   
+    
+    public static String sort(){
+        String sorted = "";
+        
+        return sorted;
+    }
+    
 }

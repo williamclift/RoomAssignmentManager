@@ -32,9 +32,9 @@ public class RoomDatabase{
         //Loops until the user enters correct login or chooses to exit
         while(!loggedIn || !exit){
             String username, password, databaseName;
-            System.out.print("--Connect to Database--\nUsername: ")
+            System.out.print("--Connect to Database--\nUsername: ");
             username = in.nextLine();
-            System.out.print("Password: ")
+            System.out.print("Password: ");
             password = in.nextLine();
             
             loggedIn = login(username, password);
@@ -62,7 +62,7 @@ public class RoomDatabase{
         boolean exit = false;
 
         while(!exit){
-            System.out.println("--Connect to Database--\nProcessing...")
+            System.out.println("--Connect to Database--\nProcessing...");
             boolean loggedIn = login(username, password);
             
             //Failed Login Procedure
